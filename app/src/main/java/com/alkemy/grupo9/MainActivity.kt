@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.button_navigate)
         button.setOnClickListener {
             val intent = Intent(this, MessageActivity::class.java)
-            intent.putExtra("message", getString(R.string.app_name))
+            intent.putExtra("message", "Holaaaa")
             startActivity(intent)
         }
     }
